@@ -6,7 +6,7 @@ function Footer() {
         <div className={style.main}>
             <div className={style.mainTwo}>
                 <div>
-                    <h1>logo</h1>
+                    <img width='200' src="https://cdn.worldvectorlogo.com/logos/syscoin-sys--1.svg" />
                 </div>
                 <div className={style.mainThree}>
                     <div className={style.leftDiv} >

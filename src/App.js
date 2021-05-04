@@ -14,7 +14,6 @@ import Footer from './comp/Footer/Footer';
 function App() {
   return (
     <div>
-      
       <Abc />
       <Header />
       <BodyOne />

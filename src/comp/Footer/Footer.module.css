@@ -40,3 +40,26 @@ hr{
 .leftDiv img{
     width: 20px;
 }
+
+@media only screen and (max-width: 700px) {
+    .mainThree {
+      flex-direction: column;
+    }
+    .RightDiv{
+        margin-top: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 419px) {
+    
+    .RightDiv{
+        flex-direction: column;
+    }
+    h5{
+        margin-top: 50px !important;
+        margin-bottom: 10px !important;
+
+
+    }
+
+  }

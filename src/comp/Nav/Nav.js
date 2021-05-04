@@ -1,4 +1,4 @@
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, Button } from 'react-bootstrap';
 import React, { useState } from 'react'
 import '../../App.css'
 
@@ -37,14 +37,13 @@ const Abc = () => {
       </NavDropdown> */}
     </Nav>
     <Nav>
-    <Nav.Link href="#deets">More deets</Nav.Link>
-    <Nav.Link href="#deets">More deets</Nav.Link>
-    <Nav.Link href="#deets">More deets</Nav.Link>
-    <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
+    <Nav.Link href="#deets">Features</Nav.Link>
+    <Nav.Link href="#deets">Developers</Nav.Link>
+    <Nav.Link href="#deets">Team</Nav.Link>
+    <Nav.Link href="#deets">News</Nav.Link>
+    <Nav.Link href="#deets">Recources</Nav.Link>
+    <Nav.Link href="#deets"> <Button variant="secondary">Buy SYS</Button></Nav.Link>
+    <Nav.Link href="#deets"> <Button variant="secondary">Explore</Button></Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

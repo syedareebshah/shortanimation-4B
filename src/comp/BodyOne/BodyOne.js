@@ -7,6 +7,7 @@ import pic4 from '../assets/pic4.jpg'
 import pic5 from '../assets/pic5.jpg'
 import pic6 from '../assets/pic6.jpg'
 import pic7 from '../assets/pic7.jpg'
+import TypingCom from '../TypingCom';
 
 
 
@@ -56,7 +57,7 @@ function BodyOne() {
           Discover
         </h1>
 
-        <div className={style.SideItems}>
+        <div className={style.SideItemsTwo}>
           <div>
             <img src={pic4} />
             <h4>Syscoin Platform</h4>
@@ -78,6 +79,12 @@ function BodyOne() {
           </div>
 
         </div>
+        
+
+         <TypingCom />
+
+
+
 
       </div>
     </div>
