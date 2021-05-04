@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10%;
+    padding-top: 100px;
+}
+.main p{
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.665);
+}
+
+.sideItems{
+    display: flex;
+    margin: 0 15% 0 15%;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 10%;
+}
+.main img{
+align-self: center;
+max-width: 100%;
+}
+.main p{
+    font-size: 20px;
+}

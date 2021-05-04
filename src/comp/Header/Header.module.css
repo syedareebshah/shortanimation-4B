@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    /* margin: 0 10%; */
+    justify-content: center;
+    margin-top: 100px;
+}
+.pic{
+    width: 70%;
+    height: auto;
+}
+.heading{
+    font-size: 60px;
+}
+.para{
+    font-size: 30px;
+    color: rgb(79, 78, 77);
+}
+.leftDiv{
+    width: 50%;
+}
+.scndPara{
+    margin-top: 30%;
+    font-size: 40px;
+    color: rgb(55, 60, 60);
+}
+li{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(27, 27, 29);
+
+}
